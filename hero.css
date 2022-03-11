@@ -12,7 +12,7 @@
 
 
 header{
-    background-color:darkslategrey ;
+    background-color:darkred ;
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -25,12 +25,16 @@ header h1{
 
 header img{
     border-radius: 160px;
-    width: 300px;
-    height: 300px;
-    border: 10px solid white;
+    width: 200px;
+    height: 200px;
+    border: 8px solid white;
 }
 
-
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 main{
     max-width: 800px;
@@ -44,6 +48,7 @@ main h2{
 }
 main img{
     max-width: 100%;
+    
 }
 main p{
     background-color:grey;
@@ -59,6 +64,6 @@ main ol{
 }
 
 footer{
-    background-color: darkslategrey;
+    background-color: darkred;
     text-align:center;
 }
