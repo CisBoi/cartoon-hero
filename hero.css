@@ -45,10 +45,16 @@ main{
 main h2{
     text-align: center;
     color: black;
+    padding-top: 20px;
 }
 main img{
     max-width: 100%;
     
+}
+main hr{
+    color: black;
+    background-color: black;
+    height: 1px;
 }
 main p{
     background-color:grey;
